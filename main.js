@@ -10,54 +10,54 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 let songs = [
   {
-    songName: "Warriyo - Mortals",
+    songName: "Humsafar",
     filePath: "songs/1.mp3",
     coverPath: "covers/1.jpg",
   },
   {
-    songName: "Cielo - Huma-Huma",
+    songName: "Iraaday",
     filePath: "songs/2.mp3",
     coverPath: "covers/2.jpg",
   },
   {
-    songName: "DEAF KEV - Invincible",
+    songName: "Buddhu Sa Mann",
     filePath: "songs/3.mp3",
     coverPath: "covers/3.jpg",
   },
   {
-    songName: "Different Heaven & EH!DE - My Heart",
+    songName: "Chanda Chamke",
     filePath: "songs/4.mp3",
-    coverPath: "covers/4.jpg",
+    coverPath: "covers/4.jpeg",
   },
   {
-    songName: "Janji - Heroes Tonight",
+    songName: "Main Rang Sharbaton Ka",
     filePath: "songs/5.mp3",
-    coverPath: "covers/5.jpg",
+    coverPath: "covers/5.jpeg",
   },
   {
-    songName: "Rabba - Salaam-E-Ishq",
+    songName: "Tum Se Hi",
     filePath: "songs/6.mp3",
-    coverPath: "covers/6.jpg",
+    coverPath: "covers/6.jpeg",
   },
   {
-    songName: "Salam-e-Ishq",
+    songName: "Jeena Jeena",
     filePath: "songs/7.mp3",
     coverPath: "covers/7.jpg",
   },
   {
-    songName: "Salam-e-Ishq",
+    songName: "Malang Sajna",
     filePath: "songs/8.mp3",
-    coverPath: "covers/8.jpg",
+    coverPath: "covers/8.jpeg",
   },
   {
-    songName: "Salam-e-Ishq",
+    songName: "Kabhi Kabhi Aditi",
     filePath: "songs/9.mp3",
-    coverPath: "covers/9.jpg",
+    coverPath: "covers/9.jpeg",
   },
   {
-    songName: "Salam-e-Ishq",
+    songName: "Jhoom",
     filePath: "songs/10.mp3",
-    coverPath: "covers/10.jpg",
+    coverPath: "covers/10.jpeg",
   },
 ];
 
