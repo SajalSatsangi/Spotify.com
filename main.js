@@ -117,12 +117,14 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach(
       if (songIndex === currentSongIndex) {
         if (!audioElement.paused) {
           audioElement.pause();
+          gif.style.opacity = 0;
           e.target.classList.remove("fa-pause-circle");
           e.target.classList.add("fa-play-circle");
           masterPlay.classList.remove("fa-pause-circle");
           masterPlay.classList.add("fa-play-circle");
         } else {
           audioElement.play();
+          gif.style.opacity = 1;
           e.target.classList.remove("fa-play-circle");
           e.target.classList.add("fa-pause-circle");
           masterPlay.classList.remove("fa-play-circle");
