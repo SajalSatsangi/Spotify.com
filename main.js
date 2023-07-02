@@ -11,27 +11,27 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
   {
     songName: "Iraaday",
-    filePath: "songs/2.mp3",
+    filePath: "songs/1.mp3",
     coverPath: "covers/2.jpg",
   },
   {
     songName: "Buddhu Sa Mann",
-    filePath: "songs/3.mp3",
+    filePath: "songs/2.mp3",
     coverPath: "covers/3.jpg",
   },
   {
     songName: "Chanda Chamke",
-    filePath: "songs/4.mp3",
+    filePath: "songs/3.mp3",
     coverPath: "covers/4.jpeg",
   },
   {
     songName: "Main Rang Sharbaton Ka",
-    filePath: "songs/5.mp3",
+    filePath: "songs/4.mp3",
     coverPath: "covers/5.jpeg",
   },
   {
     songName: "Humsafar",
-    filePath: "songs/1.mp3",
+    filePath: "songs5.mp3",
     coverPath: "covers/1.jpg",
   },
   {
