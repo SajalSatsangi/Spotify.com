@@ -160,6 +160,7 @@ document.getElementById("next").addEventListener("click", () => {
   const element = document.getElementById(`${songIndex}`);
   element.classList.remove("fa-play-circle");
   element.classList.add("fa-pause-circle");
+  gif.style.opacity = 1;
 });
 
 document.getElementById("previous").addEventListener("click", () => {
@@ -168,6 +169,25 @@ document.getElementById("previous").addEventListener("click", () => {
     songIndex = 10;
   } else {
     songIndex -= 1;
+  }
+  audioElement.src = `songs/${songIndex}.mp3`;
+  masterSongName.innerText = songs[songIndex - 1].songName;
+  audioElement.currentTime = 0;
+  audioElement.play();
+  masterPlay.classList.remove("fa-play-circle");
+  masterPlay.classList.add("fa-pause-circle");
+  const element = document.getElementById(`${songIndex}`);
+  element.classList.remove("fa-play-circle");
+  element.classList.add("fa-pause-circle");
+  gif.style.opacity = 1;
+});
+
+audioElement.addEventListener("ended", () => {
+  makeAllplays();
+  if (songIndex >= 10) {
+    songIndex = 1;
+  } else {
+    songIndex += 1;
   }
   audioElement.src = `songs/${songIndex}.mp3`;
   masterSongName.innerText = songs[songIndex - 1].songName;
